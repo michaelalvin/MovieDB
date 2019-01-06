@@ -1,0 +1,26 @@
+Backend Instructions
+
+MySQL
+1) Open MySQL Workbench
+2) Turn server on
+3) Run entities.sql in MySQL
+4) Run populate_table.sql in MySQL
+
+Python
+5) Install Python 3.7 
+6) pip install flask, flask cors, mysql-connector-python on cmd line/terminal
+6) Update database-backend.py with correct username and password in line 16-17
+7) python database-backend.py with Python
+  a. Make sure flask, flask cors, mysql.connector are successfully imported
+
+-----------------------------------------------------------------------------------------------------------
+
+Frontend Instructions
+
+1) Install node.js and npm
+2) sudo npm install http-server -g
+3) cd MovieDBFrontend
+4) http-server database-frontend/
+  a. Make sure database-backend.py is running on http://127.0.0.1:5000/
+5) Go to localhost:8080/
+6) Select button on top-left, and select "Movie" ONLY
